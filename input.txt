@@ -1,0 +1,9 @@
+int main()
+{
+   int num1;
+   scanf("%d", &num1);
+   printf("%d", num1);
+   if(num1 >= 100)
+	num1 = 100;
+   return 0;
+}
